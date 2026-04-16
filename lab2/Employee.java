@@ -19,13 +19,14 @@ class Employee {
             System.out.println("Designation:"+designation);
             System.out.println("Salary:"+salary);
         }
-        public static void main(String args[])
-        {
-            Employee e1=new Employee("Rahul","CEO",110000);
-            e1.display();
-            
-        }
+       
    
 
     
+}
+public class Employee {
+    public static void main(String[] args) {
+        Employee e1 = new Employee("Shagun", "Software Engineer", 75000);
+        e1.display();
+    }
 }

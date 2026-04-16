@@ -20,9 +20,11 @@ class Student{
         System.out.println("Roll no :"+rollNo);
 
     }
-    public static void main(String [] args){
-        Student s1 = new Student("Rahul",101);
+   
+}
+public class StudentDetails{
+    public static void main(String[] args) {
+        Student s1 = new Student("Shagun", 101);
         s1.display();
     }
-
 }

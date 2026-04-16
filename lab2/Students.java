@@ -17,8 +17,11 @@ class Student {
         System.out.println("Average Marks: " + avg);
     }
 
+   
+}
+public class Students {
     public static void main(String[] args) {
-        Student s = new Student();
-        s.AverageMarks();
+        Student s1 = new Student();
+        s1.AverageMarks();
     }
 }
